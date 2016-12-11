@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpmCluster.MessageQueuing.Worker", "BpmCluster.ConfigurationWorker\BpmCluster.MessageQueuing.Worker.csproj", "{BA55B907-ABE2-48AB-9310-7D630DEB4F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpmCluster.MessageQueuing.Client", "BpmCluster.MessageQueuing.Client\BpmCluster.MessageQueuing.Client.csproj", "{31E1FC00-EE45-4D4F-92C0-58DB0D20AD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpmCluster.MessageQueuing.Worker.SelfHost", "BpmCluster.ConfigurationWorker.SelfHost\BpmCluster.MessageQueuing.Worker.SelfHost.csproj", "{AE76D341-E321-49F8-8991-61E14FE4C8DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA55B907-ABE2-48AB-9310-7D630DEB4F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA55B907-ABE2-48AB-9310-7D630DEB4F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA55B907-ABE2-48AB-9310-7D630DEB4F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA55B907-ABE2-48AB-9310-7D630DEB4F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E1FC00-EE45-4D4F-92C0-58DB0D20AD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E1FC00-EE45-4D4F-92C0-58DB0D20AD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E1FC00-EE45-4D4F-92C0-58DB0D20AD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E1FC00-EE45-4D4F-92C0-58DB0D20AD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE76D341-E321-49F8-8991-61E14FE4C8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE76D341-E321-49F8-8991-61E14FE4C8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE76D341-E321-49F8-8991-61E14FE4C8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE76D341-E321-49F8-8991-61E14FE4C8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

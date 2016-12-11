@@ -1,0 +1,5 @@
+﻿{
+	"QueueServerConnectionString": "host=tscore-dev-13;username=worker;password=worker",
+	"EndpointName": "BpmCluster.Conductor",
+	"ErrorMessagesQueueName": "Worker.Error"
+}
