@@ -1,12 +1,14 @@
 ﻿namespace BpmCluster.MessageQueuing.Client
 {
+	using Messages.Common;
 
-	public class MessageQueuingClient
-	{
+	public class MessageQueuingClient : IMessageQueuingClient {
 
-		public void Execute(Command command) {}
+		public void Execute<TResult>(ICommand<TResult> command) where TResult : ICommandResult {
+			
+		}
 
-		public void Publish(Event e) {}
+		public void Publish(IEvent e) {}
 	}
 
 }

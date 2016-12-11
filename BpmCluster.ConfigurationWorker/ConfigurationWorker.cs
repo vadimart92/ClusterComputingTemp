@@ -26,7 +26,7 @@ namespace BpmCluster.MessageQueuing.Worker
 		}
 
 		public void Dispose() {
-			_endpointInstance.Stop().Wait();
+			_endpointInstance?.Stop().Wait();
 		}
 
 	}

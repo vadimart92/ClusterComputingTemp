@@ -40,10 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMessageQueuingClient.cs" />
     <Compile Include="MessageQueuingClient.cs" />
-    <Compile Include="Command.cs" />
-    <Compile Include="Event.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BpmCluster.MessageQueuing.Messages\BpmCluster.MessageQueuing.Messages.csproj">
+      <Project>{f5274305-1295-4762-b989-c083cc9bdced}</Project>
+      <Name>BpmCluster.MessageQueuing.Messages</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

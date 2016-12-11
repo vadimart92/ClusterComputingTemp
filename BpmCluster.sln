@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpmCluster.MessageQueuing.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpmCluster.MessageQueuing.Worker.SelfHost", "BpmCluster.ConfigurationWorker.SelfHost\BpmCluster.MessageQueuing.Worker.SelfHost.csproj", "{AE76D341-E321-49F8-8991-61E14FE4C8DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpmCluster.MessageQueuing.Messages", "BpmCluster.MessageQueuing.Messages\BpmCluster.MessageQueuing.Messages.csproj", "{F5274305-1295-4762-B989-C083CC9BDCED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BpmCluster.MessageQueuing.Client.Tests", "BpmCluster.MessageQueuing.Client.Tests\BpmCluster.MessageQueuing.Client.Tests.csproj", "{2455B081-A262-49BA-9051-CEB56A3A5916}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{AE76D341-E321-49F8-8991-61E14FE4C8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE76D341-E321-49F8-8991-61E14FE4C8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE76D341-E321-49F8-8991-61E14FE4C8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5274305-1295-4762-B989-C083CC9BDCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5274305-1295-4762-B989-C083CC9BDCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5274305-1295-4762-B989-C083CC9BDCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5274305-1295-4762-B989-C083CC9BDCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2455B081-A262-49BA-9051-CEB56A3A5916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2455B081-A262-49BA-9051-CEB56A3A5916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2455B081-A262-49BA-9051-CEB56A3A5916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2455B081-A262-49BA-9051-CEB56A3A5916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
